@@ -1,0 +1,10 @@
+name: TrancePing
+main: com.c45y.tranceping.TrancePing
+version: ${project.version}
+permissions:
+  tranceping.staff:
+    description:  Can set new Server Ping responses
+    default: op
+commands:
+  tranceping:
+    description: Set the server response message
